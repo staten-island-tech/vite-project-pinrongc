@@ -1,1 +1,14 @@
 @import url(variables.css);
+
+.parent {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+.baby {
+    height: 40rem;
+    width: auto;
+    position: relative;
+}
