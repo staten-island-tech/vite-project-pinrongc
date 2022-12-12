@@ -5,10 +5,19 @@
     display: flex;
     justify-content: center;
 
+
 }
 
 .baby {
-    height: 40rem;
+    height: 10rem;
     width: auto;
     position: relative;
+    background-color: white;
+    margin: 15px;
+}
+
+img {
+    height: 10rem;
+    width: auto;
+
 }

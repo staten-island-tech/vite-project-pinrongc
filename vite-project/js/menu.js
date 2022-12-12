@@ -38,7 +38,78 @@ const menu = [
     type: "Breakfast"
 
 },
-/* 
+
+{
+    name: "Spaghetti and Meatballs",
+    image: "https://hips.hearstapps.com/delish/assets/17/39/1506456062-delish-spaghetti-meatballs.jpg",
+    type: "Dinner"
+
+},
+
+{
+    name: "Peruvian Grilled Chicken With Green Sauce",
+    image: "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/15/15/asset/7011bd657a5f/sub-buzz-4012-1586964842-1.jpg?downsize=600:*&output-format=auto&output-quality=auto",
+    type: "Dinner"
+
+},
+
+{
+    name: "Chilaquiles",
+    image: "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/15/20/asset/d9c7f63fed1f/sub-buzz-151-1586983323-1.jpg?output-format=auto&output-quality=auto",
+    type: "Dinner"
+
+},
+
+{
+    name: "Salad",
+    image: "https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-001_1.jpg",
+    type: "Lunch"
+
+},
+
+{
+    name: "Tomato and Basil Soup",
+    image: "https://www.weightlossresources.co.uk/pimg/wlr/t/tomato-soup-with-roll-article.jpg",
+    type: "Lunch"
+
+},
+
+{
+    name: "Croissant",
+    image: "https://frenchtogether.com/wp-content/uploads/2019/01/croissant-and-coffee.jpg",
+    type: "Breakfast"
+
+},
+
+/* {
+    name: 
+    image:
+    type: 
+
+},
+
+{
+    name: 
+    image:
+    type: 
+
+},
+
+{
+    name: 
+    image:
+    type: 
+
+},
+
+{
+    name: 
+    image:
+    type: 
+
+},
+
+
 {
     name: 
     image:
@@ -72,78 +143,7 @@ const menu = [
     image:
     type: 
 
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-}, */
+},  */
 
 ]; 
 
