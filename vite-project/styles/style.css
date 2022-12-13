@@ -1,23 +1,31 @@
 @import url(variables.css);
 
-.parent {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+.headerimg {
+    height: auto;
 
 
 }
 
+.parent {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .baby {
-    height: 10rem;
-    width: auto;
+    width: 500px;
+    height: auto;
     position: relative;
     background-color: white;
     margin: 15px;
+    padding: 15px;
 }
 
 img {
     height: 10rem;
     width: auto;
-
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 1%;
 }

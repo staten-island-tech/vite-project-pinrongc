@@ -27,7 +27,7 @@ const menu = [
 
 {
     name: "Pinwheel-Sandwiches",
-    image: "https://amandascookin.com/wp-content/uploads/2021/07/Pinwheel-Sandwiches-RC-SQ.jpg",
+    image: "https://www.wikihow.com/images/5/5f/Make-Pinwheel-Sandwiches-Step-22.jpg",
     type: "Lunch"
 
 },
@@ -48,21 +48,21 @@ const menu = [
 
 {
     name: "Peruvian Grilled Chicken With Green Sauce",
-    image: "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/15/15/asset/7011bd657a5f/sub-buzz-4012-1586964842-1.jpg?downsize=600:*&output-format=auto&output-quality=auto",
+    image: "https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/16:9/w_1951,h_1097,c_limit/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg",
     type: "Dinner"
 
 },
 
 {
     name: "Chilaquiles",
-    image: "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/15/20/asset/d9c7f63fed1f/sub-buzz-151-1586983323-1.jpg?output-format=auto&output-quality=auto",
-    type: "Dinner"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2Yk-69F_p4v7lFgwiY8F7FlSgm7Ltr8j-Q&usqp=CAU",
+    type: "Breakast"
 
 },
 
 {
     name: "Salad",
-    image: "https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-001_1.jpg",
+    image: "https://www.31daily.com/wp-content/uploads/2022/04/md-Chicken-Taco-Salad-6-1-of-1-scaled.jpg",
     type: "Lunch"
 
 },
