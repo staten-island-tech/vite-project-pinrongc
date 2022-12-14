@@ -2,8 +2,18 @@
 
 .headerimg {
     height: auto;
+}
 
-
+.header {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/dULNDqzAKaFqDpsDpiRGNhQUbbI=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23999175/269049354_1246426135860260_281293515131794945_n.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 7rem;
+    background-position: initial;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: large;
 }
 
 .parent {
@@ -28,4 +38,12 @@ img {
     border-radius: 10px;
     max-width: 100%;
     margin: 1%;
+}
+
+.click {
+    color: antiquewhite;
+}
+
+#change-theme {
+    color: aqua;
 }
