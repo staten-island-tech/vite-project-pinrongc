@@ -15,7 +15,22 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
+const DOMselectors ={
+  theme: document.getElementById ("change-theme"),
+  all: document.getElementById ("all"),
+  breakfast: document.getElementById ("breakfast"),
+  lunch: document.getElementById ("lunch"),
+  dinner: document.getElementById ("dinner")
+}
+console.log(DOMselectors.theme)
 
+DOMselectors.breakfast.addEventListener("click", function() {
+  menu
+  .filter((food) => food.type.includes("breakfast"))
+  .forEach (
+    console.log(food.name)
+  )
+})
 
 
 

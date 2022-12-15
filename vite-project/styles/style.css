@@ -40,10 +40,15 @@ img {
     margin: 1%;
 }
 
-.click {
-    color: antiquewhite;
+#change-theme {
+    background-color: blue;
 }
 
-#change-theme {
-    color: aqua;
-}
+#all {}
+
+#breakfast {}
+
+#lunch {}
+
+
+#dinner {}

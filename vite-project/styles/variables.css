@@ -1,3 +1,14 @@
 body {
     background-color: powderblue;
 }
+
+:root {
+    --blue: #3380FF;
+    --red: #FF4933
+}
+
+
+#all {
+    color: var(--blue);
+    background-color: var(--red);
+}
