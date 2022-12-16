@@ -5,13 +5,12 @@
 }
 
 .header {
-    background-image: url("https://cdn.vox-cdn.com/thumbor/dULNDqzAKaFqDpsDpiRGNhQUbbI=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23999175/269049354_1246426135860260_281293515131794945_n.jpg");
+    background-image: url("https://media.istockphoto.com/id/1138411284/photo/empty-wooden-table-top-with-blur-coffee-shop-or-restaurant-interior-background.jpg?s=612x612&w=0&k=20&c=3x1xdfAwNg59fRzE5_QlTHNy4jRlPzNYvcL94cmEap8=");
     background-repeat: no-repeat;
     height: auto;
     padding: 7rem;
     background-position: initial;
     background-size: cover;
-    color: white;
     text-align: center;
     font-size: large;
 }
@@ -24,10 +23,10 @@
 }
 
 .baby {
-    width: 500px;
+    width: 300px;
     height: auto;
     position: relative;
-    background-color: white;
+    background-color: rgba(220, 193, 193, 0.617);
     margin: 15px;
     padding: 15px;
 }
@@ -41,7 +40,7 @@ img {
 }
 
 #change-theme {
-    background-color: blue;
+    background-color: ;
 }
 
 #all {}

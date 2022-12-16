@@ -1,5 +1,6 @@
 body {
-    background-color: powderblue;
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+    background-color: rgb(237, 217, 200);
 }
 
 :root {

@@ -15,6 +15,10 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
+const remove = function () { 
+document.querySelectorAll(".baby") .forEach((baby)=>baby.remove());
+}
+
 const DOMselectors ={
   theme: document.getElementById ("change-theme"),
   all: document.getElementById ("all"),
@@ -24,13 +28,41 @@ const DOMselectors ={
 }
 console.log(DOMselectors.theme)
 
+DOMselectors.all.addEventListener("click", function() {
+  remove();
+  menu
+  .forEach(cards)
+
+})
+
+
 DOMselectors.breakfast.addEventListener("click", function() {
+  remove();
   menu
   .filter((food) => food.type.includes("breakfast"))
-  .forEach (
-    console.log(food.name)
-  )
+  .forEach(cards)
+
 })
+
+DOMselectors.lunch.addEventListener("click", function() {
+  remove();
+  menu
+  .filter((food) => food.type.includes("lunch"))
+  .forEach(cards)
+
+})
+
+DOMselectors.dinner.addEventListener("click", function() {
+  remove();
+  menu
+  .filter((food) => food.type.includes("dinner"))
+  .forEach(cards)
+
+})
+
+
+
+
 
 
 
