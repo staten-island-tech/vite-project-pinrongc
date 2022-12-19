@@ -68,7 +68,6 @@ DOMselectors.theme.addEventListener("click", function() {
  else{
   document.body.classList.add("cool");
   document.body.classList.remove("warm");
-
 }
 });
 

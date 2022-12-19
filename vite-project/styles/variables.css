@@ -1,7 +1,4 @@
-body {
 
-    background-color: rgb(237, 217, 200);
-}
 
 :root {
     --dark-blue: #3380FF;
@@ -25,7 +22,7 @@ body {
 }
 
 
-#all {
+#all{
     color: var(--primary);
 }
 
