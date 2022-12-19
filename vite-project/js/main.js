@@ -71,5 +71,15 @@ DOMselectors.theme.addEventListener("click", function() {
 }
 });
 
+DOMselectors.theme.addEventListener("click", function() {
+  if(document.body.classList.contains("image1")){
+  document.body.classList.add("image2");
+  document.body.classList.remove("image1");
+  }
+  else{
+   document.body.classList.add("image1");
+   document.body.classList.remove("image2");
+ }
+ });
 
 menu.forEach (cards);

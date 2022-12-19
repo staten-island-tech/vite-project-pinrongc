@@ -1,12 +1,15 @@
 @import url(variables.css);
 
-.headerimg {
-    height: auto;
+.background {
     background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header { 
     background-repeat: no-repeat;
+    background-image: url("https://media.istockphoto.com/id/1138411284/photo/empty-wooden-table-top-with-blur-coffee-shop-or-restaurant-interior-background.jpg?s=612x612&w=0&k=20&c=3x1xdfAwNg59fRzE5_QlTHNy4jRlPzNYvcL94cmEap8=");
     height: auto;
     padding: 7rem;
     background-position: initial;
@@ -20,6 +23,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+
 }
 
 .baby {
@@ -28,6 +32,7 @@
     position: relative;
     margin: 15px;
     padding: 15px;
+    background-color: rgba(250, 235, 215, 0.291);
 }
 
 img {

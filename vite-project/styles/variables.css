@@ -1,5 +1,6 @@
 
 
+
 :root {
     --dark-blue: #3380FF;
     --light-blue: #6fa8dc;
@@ -7,6 +8,8 @@
     --light-red: #e06666;
     --primary: var(--light-blue);
     --secondary: var(--dark-blue);
+    --image1: url(https://images.squarespace-cdn.com/content/v1/5efb1ee0737b1548b9331bb9/1593520375164-4DFS71F2QBKQLJDE4FDF/2019_06_21_BRIGHT_1355.jpg);
+    --image2: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg)
 }
 
 
@@ -22,7 +25,21 @@
 }
 
 
-#all{
+.background{
     color: var(--primary);
 }
+
+.image1{
+    --image1: var(--image1)
+}
+
+.image2{
+--image2:var(--image2)
+
+}
+.header{
+    background-image: var(--image1);
+}
+
+
 
