@@ -1,15 +1,31 @@
 body {
-    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+
     background-color: rgb(237, 217, 200);
 }
 
 :root {
-    --blue: #3380FF;
-    --red: #FF4933
+    --dark-blue: #3380FF;
+    --light-blue: #6fa8dc;
+    --dark-red: #FF4933;
+    --light-red: #e06666;
+    --primary: var(--light-blue);
+    --secondary: var(--dark-blue);
+}
+
+
+.warm{
+    --primary: var(--dark-red);
+    --secondary: var(--light-red)
+}
+
+
+.cool {
+    --primary: var(--light-blue);
+    --secondary: var(--dark-blue);
 }
 
 
 #all {
-    color: var(--blue);
-    background-color: var(--red);
+    color: var(--primary);
 }
+

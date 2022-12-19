@@ -22,6 +22,7 @@
     <button id="dinner">Dinner</button>
     <button id="price1">Under $10</button>
     <button id="price2">$10 and Plus</button>
+    <button id="music">Music</button>
   </section>
 
   <section class="parent">
@@ -34,7 +35,18 @@
   </section>
 
   <div id="app"></div>
-  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/main.js">
+
+let play = document.getElementById("play");
+function playMusic() {
+  let audio = new Audio("");
+  audio.play()
+}
+play.addEventListener("click", playMusic);
+
+
+
+  </script>
 
 </body>
 

@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url("https://media.istockphoto.com/id/1138411284/photo/empty-wooden-table-top-with-blur-coffee-shop-or-restaurant-interior-background.jpg?s=612x612&w=0&k=20&c=3x1xdfAwNg59fRzE5_QlTHNy4jRlPzNYvcL94cmEap8=");
+    
     background-repeat: no-repeat;
     height: auto;
     padding: 7rem;
@@ -26,7 +26,6 @@
     width: 300px;
     height: auto;
     position: relative;
-    background-color: rgba(220, 193, 193, 0.617);
     margin: 15px;
     padding: 15px;
 }
@@ -39,15 +38,19 @@ img {
     margin: 1%;
 }
 
-#change-theme {
+/* #change-theme {
     background-color: ;
 }
 
-#all {}
+#all {
+    background-color: ;
+}
 
-#breakfast {}
+#breakfast {
+
+}
 
 #lunch {}
 
 
-#dinner {}
+#dinner {} */
