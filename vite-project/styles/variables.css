@@ -11,7 +11,8 @@
     --brown: #7d5a3973;
     --stone: #faebd74a;
     --grey: #ffffff38;
-    --coffee:#af9e7f;
+    --coffee: #af9e7f;
+    --lightbrown: #b78a5d;
     --image1: url(https://www.ignant.com/wp-content/uploads/2020/03/ignant-travel-bright-restaurant-london-013-1440x993.jpg);
     --image2: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg)
 }
@@ -19,13 +20,15 @@
 
 .warm {
     --themeimg: url(https://www.ignant.com/wp-content/uploads/2020/03/ignant-travel-bright-restaurant-london-013-1440x993.jpg);
-    --background: var(--brown);  
-    --header: var(--brown)
+    --background: var(--brown);
+    --header: var(--brown);
+    --button: var(--lightbrown)
 }
 
 
 .cool {
     --themeimg: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
     --background: var(--stone);
-    --header:var(--grey)
+    --header: var(--grey);
+    --button: var(--coffee)
 }

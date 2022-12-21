@@ -1,4 +1,12 @@
 const menu = [ 
+{
+    name: "Classic Pancakes, Bacon & Egg",
+    image: "https://reviewed-com-res.cloudinary.com/image/fetch/s--M4wQLwKf--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1568123038734/Bfast.png",
+    type:"breakfast",
+    price: 9
+
+},
+
  { 
     name: "Pork Fried Rice",
     image:"https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FSeries%2F2020-04-snapshot-cooking-5-recipes-to-make-with-2-cups-of-rice%2Fthekitchn-pork-fried-rice-beauty" ,
