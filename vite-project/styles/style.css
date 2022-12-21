@@ -16,13 +16,14 @@ body {
     height: 100px;
     width: 500px;
     padding: 5rem;
+    padding-top: 3rem;
     border-radius: 100%;
     margin: auto;
     text-align: center;
     color: var(--color);
     font-size: 30px;
-    background-color: #6666666b;
-    box-shadow: 0px 0px 20px white;
+    background-color: #ffffff38;
+    box-shadow: 0px 0px 20px #ffffff;
 }
 
 .parent {
@@ -39,7 +40,7 @@ body {
     position: relative;
     margin: 15px;
     padding: 15px;
-    background-color: rgba(250, 235, 215, 0.291);
+    background-color: var(--background);
     color: var(--color);
     font-size: large;
 }
@@ -52,26 +53,14 @@ img {
     margin: 1%;
 }
 
-/* #change-theme {
-    font-family: 'Aref Ruqaa Ink', serif;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100px;
-    height: 70px;
-    border-radius: 50%;
-    border: none;
-    background-color: #bcbcbc;
-}
- */
-#change-theme,
-#all,
-#breakfast,
-#lunch,
-#dinner {
+button{
     font-family: 'Aref Ruqaa Ink', serif;
     width: 150px;
     height: 30px;
     padding-bottom: 2rem;
     font-weight: bold;
-    font-size: 20px
+    font-size: 20px;
+    border-radius: 50rem;
+    background-color: #af9e7f;
+    display: block;
 }

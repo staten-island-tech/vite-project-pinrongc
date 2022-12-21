@@ -24,7 +24,10 @@ const DOMselectors ={
   all: document.getElementById ("all"),
   breakfast: document.getElementById ("breakfast"),
   lunch: document.getElementById ("lunch"),
-  dinner: document.getElementById ("dinner")
+  dinner: document.getElementById ("dinner"),
+  less:document.getElementById ("price1"),
+  greater:document.getElementById ("price2")
+
 }
 console.log(DOMselectors.theme)
 
@@ -34,7 +37,6 @@ DOMselectors.all.addEventListener("click", function() {
   .forEach(cards)
 
 })
-
 
 DOMselectors.breakfast.addEventListener("click", function() {
   remove();
@@ -59,6 +61,20 @@ DOMselectors.dinner.addEventListener("click", function() {
   .forEach(cards)
 
 })
+
+DOMselectors.less.addEventListener("click", function() {
+  remove();
+  menu
+  .filter((food) => food.price <10)
+  .forEach(cards)
+ })
+
+ DOMselectors.greater.addEventListener("click", function() {
+  remove();
+  menu
+  .filter((food) => food.price >=10)
+  .forEach(cards)
+ })
 
 DOMselectors.theme.addEventListener("click", function() {
  if(document.body.classList.contains("cool")){
