@@ -15,9 +15,6 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
-const remove = function () { 
-document.querySelectorAll(".baby") .forEach((baby)=>baby.remove());
-}
 
 
 const DOMselectors ={
@@ -90,6 +87,7 @@ DOMselectors.less.addEventListener("click", function() {
   .forEach(cards)
  })
 
+
 DOMselectors.theme.addEventListener("click", function() {
  if(document.body.classList.contains("cool")){
  document.body.classList.add("warm");
@@ -100,6 +98,5 @@ DOMselectors.theme.addEventListener("click", function() {
   document.body.classList.remove("warm");
 }
 });
-
-
 menu.forEach (cards);
+
