@@ -15,8 +15,6 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
-
-
 const DOMselectors ={
   theme: document.getElementById ("change-theme"),
   all: document.getElementById ("all"),
