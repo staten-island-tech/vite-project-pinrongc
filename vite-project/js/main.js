@@ -15,6 +15,9 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
+const remove = function () {
+  document.querySelectorAll(".baby") .forEach((baby)=>baby.remove());}
+
 const DOMselectors ={
   theme: document.getElementById ("change-theme"),
   all: document.getElementById ("all"),
@@ -26,6 +29,7 @@ const DOMselectors ={
 
 }
 console.log(DOMselectors.theme)
+
 
 
 const filter = {
@@ -97,4 +101,3 @@ DOMselectors.theme.addEventListener("click", function() {
 }
 });
 menu.forEach (cards);
-
