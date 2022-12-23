@@ -15,7 +15,6 @@ document.querySelector(".parent").insertAdjacentHTML(
      )
 }
 
-
 const DOMselectors ={
   theme: document.getElementById ("change-theme"),
   all: document.getElementById ("all"),
@@ -28,8 +27,23 @@ const DOMselectors ={
 }
 console.log(DOMselectors.theme)
 
-const remove = function () { 
-document.querySelectorAll(".baby") .forEach((baby)=>baby.remove());
+
+const filter = {
+breakfast: menu
+  .filter((food) => food.type.includes("breakfast"))
+  .map((food)=> food),
+lunch: menu
+  .filter((food) => food.type.includes("lunch"))
+.map((food)=> food),
+dinner: menu
+  .filter((food) => food.type.includes("dinner"))
+  .map((food)=> food),
+less: menu
+  .filter((food) => food.price <10)
+  .map((food)=> food),
+greater: menu
+  .filter((food) => food.price >=10)
+.map((food)=> food)
 }
 
 
@@ -37,44 +51,37 @@ DOMselectors.all.addEventListener("click", function() {
   remove();
   menu
   .forEach(cards)
-
 })
 
 DOMselectors.breakfast.addEventListener("click", function() {
   remove();
-  menu
-  .filter((food) => food.type.includes("breakfast"))
-  .forEach(cards)
+ filter.breakfast.forEach(cards)
 
 })
 
 DOMselectors.lunch.addEventListener("click", function() {
   remove();
-  menu
-  .filter((food) => food.type.includes("lunch"))
+filter.lunch
   .forEach(cards)
 
 })
 
 DOMselectors.dinner.addEventListener("click", function() {
   remove();
-  menu
-  .filter((food) => food.type.includes("dinner"))
+  filter.dinner
   .forEach(cards)
 
 })
 
 DOMselectors.less.addEventListener("click", function() {
   remove();
-  menu
-  .filter((food) => food.price <10)
+  filter.less
   .forEach(cards)
  })
 
  DOMselectors.greater.addEventListener("click", function() {
   remove();
-  menu
-  .filter((food) => food.price >=10)
+  filter.greater
   .forEach(cards)
  })
 
