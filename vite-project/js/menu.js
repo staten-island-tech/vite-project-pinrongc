@@ -70,6 +70,14 @@ const menu = [
 },
 
 {
+    name: "Avocado Toast",
+    image: "https://www.jessicagavin.com/wp-content/uploads/2020/07/avocado-toast-20-1200.jpg",
+    type: "breakfast",
+    price: 7
+},
+
+
+{
     name: "Chilaquiles",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2Yk-69F_p4v7lFgwiY8F7FlSgm7Ltr8j-Q&usqp=CAU",
     type: "breakast",
@@ -82,6 +90,14 @@ const menu = [
     image: "https://www.31daily.com/wp-content/uploads/2022/04/md-Chicken-Taco-Salad-6-1-of-1-scaled.jpg",
     type: "lunch",
     price: 5
+
+},
+
+{
+    name: "Bagel Sandwich",
+    image:"https://themom100.com/wp-content/uploads/2021/03/bagel-breakfast-sandwich-043.jpg",
+    type: "breakfast",
+    price: 7
 
 },
 
@@ -101,69 +117,12 @@ const menu = [
 
 },
 
-/* {
-    name: 
-    image:
-    type: 
+{
+    name: "Chicken Piccata",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUvBnEtJEnT8CTgYsXrB-0TI8NjKXVbRNw6g&usqp=CAU",
+    type: "dinner"
 
 },
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},
-
-{
-    name: 
-    image:
-    type: 
-
-},  */
 
 ]; 
 
