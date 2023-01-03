@@ -26,7 +26,7 @@ const menu = [
     name: "Chicken Alfredo Pizza",
     image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-07-Chicken-Alfredo-Pizza%2FChicken-Alfredo-Pizza-KitchnKitchn2970-1_01" ,
     type: ["lunch", "dinner"],
-    price: 3
+    price: 18
 },
 
 {
@@ -120,7 +120,8 @@ const menu = [
 {
     name: "Chicken Piccata",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUvBnEtJEnT8CTgYsXrB-0TI8NjKXVbRNw6g&usqp=CAU",
-    type: "dinner"
+    type: "dinner",
+    price: 12
 
 },
 
